@@ -1,0 +1,36 @@
+/* select tag (very broad and general) */
+h1 {
+  color: #f5b490;
+}
+
+/*
+select classes, more specified
+will overwrite styles applied to tags as a whole
+*/
+.songTitle {
+  font-size: 30px;
+}
+.artistName {
+  font-size: 20px;
+}
+
+/*
+select IDs,most unqiue, most specified.
+there can ony be one element of a specific ID.
+overwrites styles applied to class or tags
+*/
+
+#destinysChild{
+  color: red;
+  font-size: 50px;
+}
+
+#tat{
+  text-shadow: 1px 2px;
+}
+
+#centerContent{
+  border: 1px black solid;
+  width: 300px;
+  margin: auto;
+}
